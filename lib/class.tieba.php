@@ -173,7 +173,6 @@ class tieba{
 				$content .= talk($k['content'],$this->un,$this->setting[1],$this->setting[2]).$this->setting[6];
 				$res = $this->reply($k['thread_id'], $pid, $k['fname'], $content);
 				echo "在\"{$k['fname']}\"吧,贴号[{$k['thread_id']}],回复{$res}";
-				echo "<a href='./index.php'>返回</a><br>";
 				set_log(在\"{$k['fname']}\"吧,贴号[{$k['thread_id']}],回复{$res});
 				// 回帖间隔
 				sleep(3);
@@ -184,6 +183,8 @@ class tieba{
 		for ($i=0;$i<2;$i++){
 			$this->cron_type($this->type[$i]);
 		}
+		echo "<a href='./index.php'>返回</a><br>";
+
 	}
 }
 /*PHP END*/

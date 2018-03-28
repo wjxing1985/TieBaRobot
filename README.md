@@ -6,7 +6,8 @@ TBRobot_Simple
 
 1. 访问 你的应用域名/install 进行安装
 2. 登陆 进行相关设置
-3. 设置 cron.php 的cron。
+3. 设置 cron.php 的cron。 (自动化执行消息检查和发帖的地方)
+4. 手动调用 cron.php也可以执行
 
 ## The MIT License (MIT)
 
