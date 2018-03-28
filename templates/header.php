@@ -23,6 +23,7 @@
         <ul class="am-nav">
           <li><a href="./">首页</a></li>
           <li><a href="./index.php?action=robot">管理</a></li>
+          <li><a href="./cron.php">手动执行</a></li>
           <li><a href="./index.php?action=setting">设置</a></li>
           <li><a href="./index.php?action=logout">退出</a></li>
         </ul>
